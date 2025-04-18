@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="wk4/libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="wk4/libraries/kusama_dots.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+    .column {
+      float: left;
+      width: 20%;
+      padding: 5px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+    }
+
+    h1 {
+      font-family: haasbold;
+    }
+
+    p {
+      text-align: justify;
+      font-family: haasreg;
+    }
+
+    @font-face {
+      font-family: haasbold;
+      src: url(./homepage/AlteHaasGroteskBold.ttf);
+    }
+
+    @font-face {
+      font-family: haasreg;
+      src: url(./homepage/AlteHaasGroteskRegular.ttf);
+    }
+
+    div.scroll-container {
+      overflow: auto;
+      white-space: nowrap;
+      padding: 1px;
+    }
+
+    div.scroll-container img {
+      padding: 10px;
+    }
+
+    .caption {
+      font-family: haasreg;
+      text-align: justify; 
+      text-align: center;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .next {
+        font-size: x-small;
+        text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <br>
+  <br>
+  
+  <marquee>
+    <h1>KUSAMA at the NGV</h1>
+  </marquee>
+
+  <p style="text-align: center;">scroll left:</p>
+  
+  <div class="scroll-container">
+    <img src="wk4/kpics/kwhite.jpeg" width="auto" height="400">
+    <img src="wk4/kpics/ktendril.jpeg" width="auto" height="400">
+    <img src="wk4/kpics/kroom.jpeg" width="auto" height="400">
+    <img src="wk4/kpics/kred.jpeg" width="auto" height="400">
+    <img src="wk4/kpics/kmonroe.jpeg" width="auto" height="400">
+    <img src="wk4/kpics/kmirror.jpeg" width="auto" height="400">
+    <img src="wk4/kpics/klight.jpeg" width="auto" height="400">
+    <img src="wk4/kpics/klblack.jpeg" width="auto" height="400">
+    <img src="wk4/kpics/kladder.jpeg" width="auto" height="400">
+  </div>
+
+  <p style="margin-left: 50%; margin-right: 10%;">Yayoi Kusama is a contemporary Japanese artists who is most notable for her immersive sculpture and installation works. There is a heavy motif of dots throughout her oeurve, the paintings being called <em>"Infinity Nets"</em> and the rooms <em>"Infinity Rooms."</em> Her artworks express an algorithm-like fashion, especially when considering the sensory interactions involved.</p>
+
+  <br>
+  <br>
+
+  <marquee direction="right">
+    <h1>WOT IS GENERATIVE DESIGN?</h1>
+  </marquee>
+  
+  <p style="margin-right: 50%; margin-left: 10%;">
+    Designs whereby an algorithm-driven process is created; a set of language rules input into a machine that when set in motion, generate works of art. Here's some examples for you, most of which were done in-class:
+  </p>
+
+  <iframe src="wk4/4rainbowmouse/index.html" style="width: 80%; height: 80vh" class="center"></iframe>
+  <p class="caption">drag your mouse across the screen to paint in colours, or click to change the background</p>
+
+  <br>
+
+  <iframe src="wk4/4random/index.html" style="width: 80%; height: 80vh" class="center"></iframe>
+  <p class="caption">drag your mouse across the screen to create some randomness</p>
+
+  <br>
+
+  <iframe src="wk4/sonic/index.html"
+  style="width: 80%; height: 80vh" class="center"></iframe>
+  <p class="caption">drag your mouse and sonic will give chase</p>
+
+<br>
+<br>
+
+    <a href ="5entry.html">
+    <img src="homepage/jumpportrait.png" style="height: 100px;width: auto;" class="center">
+    </a>
+    <h1 class="next">NEXT</h1>
+
+    <!-- why does wk4.html not work when redirected from index.html>4entry.html>wk4.html but works fine from just 4entry.html>wk4.html? i cannot for the life of me find a way that debugs this-->
+
+     <!-- it works if you click in to the wk4html on my github and go on from there... 
+      or click in from 4entry.html>wk4.html, it works this way too-->
+
+</body>
+</html>

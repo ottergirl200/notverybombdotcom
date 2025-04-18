@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home Page</title>
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/sketch.js"></script>
+
+    <style>
+      body {
+        text-align: center;
+      }
+
+      h1 {
+        font-family: haasbold;
+      }
+
+      h2 {
+        font-family: haasreg;
+      }
+
+      @font-face {
+        font-family: haasbold;
+        src: url(./homepage/AlteHaasGroteskBold.ttf);
+      }
+
+      @font-face {
+        font-family: haasreg;
+        src: url(./homepage/AlteHaasGroteskRegular.ttf);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+        padding: 5px;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <h1 style="padding-top: 80%;">get started...</h1>
+    <h2>click on one of these images:</h2>
+    <br>
+
+    <div class="row">
+      <div class="column">
+        <a href = "https://ottergirl200.github.io/bombdotcom/index.html">
+        <img src="homepage/bomb.png" alt="Wk4" style="width:100%">
+      </a>
+      <h1>2A</h1>
+      </div>
+
+      <div class="column">
+        <a href = "4entry.html">
+        <img src="homepage/kusamadots.gif" alt="Wk4" style="width:100%">
+      </a>
+      <h1>4</h1>
+      </div>
+
+      <div class="column">
+        <a href ="5entry.html">
+        <img src="homepage/invertback.gif" alt="Wk5" style="width:100%">
+      </a>
+      <a href ="5entry.html">
+        <img src="homepage/invertback.gif" alt="Wk5" style="width:100%">
+      </a>
+      <h1>5</h1>
+      </div>
+
+      <div class="column">
+        <a href ="6entry.html">
+        <img src="homepage/voicerecord.gif" alt="Wk6" style="width:100%">
+      </a>
+      <h1>6</h1>
+      </div>
+    </div>
+    
+<!-- why does wk4.html not work when redirected from this page>4entry.html>wk4.html but works fine from just 4entry.html>wk4.html? same for wk6.html>index.html, the java script does not load... i cannot for the life of me find a way that debugs this-->
+
+  </body>
+</html>
